@@ -26,6 +26,10 @@ div.header h1 {
     float: right;
 }
 
+.header-menu a {
+    padding-left: 5px;
+}
+
 ul.pagination {
     list-style-type: none;
     text-align: center;
@@ -42,6 +46,10 @@ div.footer {
     text-align: center;
 }
 
+.footer-links a {
+    padding: 0 5px;
+}
+
 img {
     max-width: 100%;
     max-height: 100%;
@@ -52,4 +60,22 @@ img {
 
 a, a:visited, a:hover, a:active {
     color: #0000EE;
+}
+
+.posts-list li:not(:last-child) {
+    padding-bottom: 20px;
+}
+
+.post-meta a:not(:last-child) {
+    padding-right: 5px;
+}
+
+blockquote {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-left: 15px;
+    border-left: 3px solid #ccc;
+    background-color: #f9f9f9;
+    font-style: italic;
 }
